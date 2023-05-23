@@ -1,0 +1,31 @@
+@import "../../styles.scss";
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  border-right: none;
+  background-color: $primary;
+}
+
+.sidenav-toolbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: $lighter;
+  text-transform: uppercase;
+  background-color: $secondary;
+}
+
+.mat-toolbar{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.toolbar{
+  background-color: $secondary;
+}
